@@ -98,12 +98,13 @@ a:hover, a:active {
 				}
 
 		.intro-text3 {
-			font-size: 3em;
-			font-weight: 600
+			font-size: 3.1em;
+			font-weight: 600;
 		}
 				.typewrite {
 					color: #141414 !important; /*Eerie Black*/
 					font-weight: 600 !important;
+					font-size: 1.1em;
 				}
 
 		.intro-text4 {
@@ -134,6 +135,7 @@ p {
   	padding: 50px;
   	background-attachment: fixed;
 	height: 100vh;
+	margin: 0;
 }
 
 #about-img {
@@ -179,7 +181,7 @@ p {
   	background-position: top;
   	background-size:cover;
   	background-attachment: fixed;
-	height: 120vh;
+	height: 130vh;
 
 }
 .form-control {
@@ -190,6 +192,6 @@ p {
  	background-color: #E05A00;
  	position: relative;
  	left: 9em;
- 	width: 9em;
+ 	width: 10em;
  	color: #FFFFFF;
  }
