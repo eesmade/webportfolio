@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
 }
 
 a:link, a:visited {
@@ -14,7 +15,7 @@ a:link, a:visited {
 a:hover, a:active {
 	background: transparent;
 	text-decoration: none;
-  	font-size: 100%;
+  	font-size: 110%;
   	color: none;
  }
 
@@ -59,41 +60,37 @@ header {
  	background-repeat: no-repeat;
   	background-position: top;
   	background-size:cover;
-  	padding: 50px;
   	background-attachment: fixed;
 }
 
 #home {
-	padding: 170px 170px 170px 130px;
-	height: 40em;
-	position: relative;
-
+	padding: 130px 130px 20px 130px;
+	height: 100vh;
 }
-.overlay-bg {
-	background-color:black;
+/*.overlay-bg {
+	background: #000000;
 	opacity: .2;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	padding: 145px;
-	height: 40em;
-	width: auto;
+	position: relative;
+	z-index: 1;
+	height: 36em;
+	bottom: 4em;
 }
+*/
 .intro-texts{
 	position: relative;
 	z-index: 3;
+	color: #FFFFFF; /*White*/
 }
 		.intro-text1 {
 			font-weight: 700;
 			font-size: 4em;
-			color: #FFFFFF; /*White*/
 		}
 
 		.intro-text2 {
 			font-weight: 700;
 			font-size: 7em;
-			color: #FFFFFF; /*White*/
+			position: relative;
+			margin-bottom: 30px;
 		}
 
 				.intro-text2-2 {
@@ -101,26 +98,36 @@ header {
 				}
 
 		.intro-text3 {
+			font-size: 3em;
+			font-weight: 600
+		}
+				.typewrite {
+					color: #141414 !important; /*Eerie Black*/
+					font-weight: 600 !important;
+				}
+
+		.intro-text4 {
 			font-size: 2em;
-			color: #FFFFFF; /*White*/
-			position: relative;
-			top: 2em;
 		}
 
 #bt-intro {
 	background: #E94A35; /*Cinnabar*/
   	color:white;
-  	width:400px;
+  	width:270px;
   	height:75px;
  	border:none;
+ 	border-radius: 9px;
   	margin: 10px;
   	font-size: 1.3em;
   	position: relative;
-  	top: 7em;
+  	top: 2em;
+  	left: 3em;
 }
 
 /***About Styles***/
-
+p {
+	text-align: justify;
+}
 
 #about {
 	padding: 10px;
@@ -131,66 +138,85 @@ header {
   	background-size:cover;
   	padding: 50px;
   	background-attachment: fixed;
-	height: 28em;
+	height: 100vh;
 }
 #tech-stack {
-	padding: 50px;
+	/*padding: 10px;
 	text-align: center;
 	background-image: url("./images/white.jpg");
  	background-repeat: no-repeat;
   	background-position: top;
   	background-size:cover;
-  	background-attachment: fixed;
-	height: 35em;
-}
-
-.about-content {
-	padding: 40px 20px 0 0;
-	/*position: relative;
-	top: 30px;
-	left: 30px;*/
+  	background-attachment: fixed;*/
+	height: 60vh;
+	padding: 50px;
 }
 
 #about-img {
 	height: 21.5em;
-	width: 23em;
+	width: 23.2em;
 	float: right;
 	padding: 0 50px;
 	border-radius: 50%;
+	position: relative;
+	right: 20px;
+	bottom: 30px;
 }
 
 
 /***Project Styles***/
+#projects {
+	height: 100vh;
+}
 .card-title {
 	color: #FFF1AD; /*Light Yellow*/
 }
 
 
 /**Contact Form Styles***/
-.form-section {
-	padding: 0;
+#form-section {
 	text-align: center;
 	background-image: url("./images/white.jpg");
  	background-repeat: no-repeat;
   	background-position: top;
   	background-size:cover;
   	background-attachment: fixed;
-	height: 30em;
+	height: 100vh;
+	margin-bottom: 30px;
 }
 
 form {
-	background-color: #F1562A;
+	background-color: #F1562A; /*Cinnabar*/
+	padding: 0;
+	margin: 0;
 }
-
- .btn {
+#full_name, #email, #contact, #message {
+  	border: 2px solid #ccc;
+  	border-radius: 2px;
+  	background-color: #FFFFFF;/*white*/
+  	resize: none;
+  	cursor: pointer;
+  	margin: 0;
+}
+.btn {
  	background-color: #FFB370;
  	position: relative;
  	left: 1em;
- 	width: 10em;
+ 	width: 9em;
+ }
+ iframe {
+ 	position: relative;
+ 	display: flex;
+ 	align-items: ;
+ 	justify-content: center;
+ 	flex-direction: column;
+ 	height:20em;
+ 	width:35em;
  }
 
 
 /***Footer Styles***/
 footer {
 	text-align: center;
+	height: 3em;
 }

@@ -23,16 +23,16 @@
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav ml-auto text-center">
 		    	<li class="nav-item active text-uppercase" id="nav-item1">
-		    	<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+		    	<a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
 		    	</li>
 		     	<li class="nav-item active text-uppercase" id="nav-item2">
-		        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
 		      	</li>
 		      	<li class="nav-item active text-uppercase" id="nav-item3">
-		        <a class="nav-link" href="#">Projects</a>
+		        <a class="nav-link" href="#projects">Projects</a>
 		      	</li>
 		      	<li class="nav-item active text-uppercase" id="nav-item4">
-		        <a class="nav-link" href="#">Contact</a>
+		        <a class="nav-link" href="#form-section">Contact</a>
 		      	</li>
 		    </ul>
 		  </div>
@@ -40,40 +40,99 @@
 		<!-- Navbar Section End -->
 
 		<!-- Home Section Start -->
-
+	<main class="container-fluid p-0">
 		<header id="home">
-				<div class="overlay-bg"></div>
+			<div class="row">
 				<div class="intro-texts">
 						<h1 class="intro-text1">Hello.</h1>
 						<h1 class="intro-text2">I am <span class="intro-text2-2">ERONNA<span></h1>
-						<h2 class="intro-text3">Passionate in Bridging Gaps between Users, Technology and Business</h2>
-						<button id="bt-intro">Get in Touch</button>
-					</div>
-			</header>
+						<h1 class="intro-text3">A Web Developer &&  <a href="" class="typewrite" data-period="2000" data-type='[ " Program Manager"," System Engineer", " Music Lover"," Mountain Hiker"]'>
+    					<span class="wrap"></span>
+ 						</a></h1>
+ 						<h3 class="intro-text4">Passionate in Bridging Gaps between Users, Technology and Business</h3>
+ 						<a href="#form-section">
+						<button id="bt-intro">Get in Touch</button></a>
+				</div>
+			</div>
+		</header>
 		<!-- Home Section End -->
 
 		<!-- About Section Start -->
-		<section id="about">
-				<h1 class="header-title mb-5">ABOUT ERONNA</h1>
-				<img src="./images/me.png" alt="myPicture" id="about-img">
-		        <p class="about-content">I'm a dedicated and detail-oriented professional with 5 yrs of experience in Operations, Quality Assurance, Process Improvement and Project Management and recently started my journey in Web Development.</p>
+		<section class="container-fluid" id="about">
+			<h1 class="header-title mt-5 mb-5">ABOUT ERONNA</h1>
+			<div class="row">
+				<div class="offset-1 col-3">
+				<img src="./images/me.png" alt="myPicture" id="about-img" class="rounded-circle">
+				</div>
+				<div class=" col-7">
+				<p>I'm a dedicated and detail-oriented professional with 5 yrs of experience in Operations, Quality Assurance, Process Improvement and Project Management and recently started my journey in Web Development.</p>
 		        <p>I graduated with a degree in Bachelor of Science in Information System where I gained my technical knowledge in database management and web development. Working in Business Process Outsourcing (BPO) and Tech industry I developed my communication, analytical and organizational skills in driving process improvements to bridge gap between IT services and business strategies.</p>
 		        <p>I also had the opportunity to manage a number of contractor specialists and groomed them with practical concepts, and frameworks to elevate their impact and create lasting legacies in operations management.</p>
+		        <p>Currently, I'm interested in learning more and delving deeper into Full Stack Web Development concepts.</p>
+				</div>
+			</div>
 		</section>
 		<!-- About Section End -->
 
+		<!-- Projects Section Start -->
+		<section class="bg-secondary text-light min-vh-100 p-5" id="projects">
+			<h2 class="header-title mb-2 mt-5">PROJECTS</h2>
+			<div class="d-lg-flex justify-content-center p-md-5 text-center">
+					<!-- E-Commerce Card Start -->
+					<div class="card bg-dark col-2 col-offset-2 col-md-6 col-xl-4 mb-5 mx-xl-3 mb-xl-0" style="width: 18rem;">
+					  <img src="./images/ecommerce.png" height="260px" width="320"class="card-img-top mt-3" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">E-Commerce Website</h5>
+					    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quis dolores natus consectetur eos! Itaque, molestiae. Pariatur aspernatur fugit ad, id quam maiores vel eaque eos nemo, impedit neque error!</p>
+					  </div>
+					  <div class="card-body">
+					    <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6" class="card-link">Link to Project</a>
+					  </div>
+					</div>
+					<!-- E-Commerce Card End -->
+
+					<!-- Password Generator Card Start -->
+					<div class="card bg-dark col-xl-4 mb-5 mx-xl-3 mb-xl-0" style="width: 18rem;">
+					  <img src="./images/pwgenerator.png" height="260px" width="320" class="card-img-top mt-3" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">Password Generator</h5>
+					    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quis dolores natus consectetur eos! Itaque, molestiae. Pariatur aspernatur fugit ad, id quam maiores vel eaque eos nemo, impedit neque error!</p>
+					  </div>
+					  <div class="card-body">
+					    <a href="https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh" class="card-link">Link to Project</a>
+					  </div>
+					</div>
+					<!-- Password Generator Card End -->
+
+					<!-- Interactive Pricing Component Start -->
+					<div class="card bg-dark col-xl-4 mb-5 mx-xl-3 mb-xl-0" style="width: 18rem;">
+					  <img src="./images/pricing.png" height="260px" width="320" class="card-img-top mt-3" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">Interactive Pricing Component</h5>
+					    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quis dolores natus consectetur eos! Itaque, molestiae. Pariatur aspernatur fugit ad, id quam maiores vel eaque eos nemo, impedit neque error!</p>
+					  </div>
+					  <div class="card-body">
+					    <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" class="card-link">Link to Project</a>
+					  </div>
+					</div>
+					<!--Interactive Pricing Component End -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects Section End --> 
+
 		<!-- Tech Stack Section Start -->
-		<section id="tech-stack">
-			<h1 class="header-title mb-5 p-5">MY TECH STACK</h1>
-			<div class="container-fluid">
-                <div class="row">
-                	<div class="col-6">
+		<section class="container-fluid text-center bg-secondary text-light" id="tech-stack">
+			<h1 class="header-title mb-3 p-5">TOOLS</h1>
+			<div class="row ">
+				<div class="col-4">
                 	<h3>Programming Languages</h3>
                     <img width="100" src="images/logo-html5.png" class="bg-light rounded-circle"/>
                     <img width="100" src="images/logo-css3.png" class="bg-light rounded-circle"/>
                     <img width="100" src="images/logo-javascript.png" class="bg-light rounded-circle"/>
                 </div>
-                <div class="col-6">
+                <div class="col-8">
                 	<h3>Libraries and Frameworks</h3>
                     <img width="100" src="images/logo-mongodb.png" class="bg-light rounded-circle" />
                     <img width="100" src="images/logo-nodejs.png" class="bg-light rounded-circle"/>
@@ -84,69 +143,18 @@
                     <img width="100" src="images/logo-sublime-text-3.png" class="bg-light rounded-circle"/>
                     <img width="100" src="images/logo-postman.png"class="bg-light rounded-circle"/>
                     <img width="100" src="images/logo-gitlab-ci-cd.png" class="bg-light rounded-circle"/>
-                </div>
-              </div>
-
-
-
+				</div>
 		</section>
 		<!-- Tech Stack Section End -->
 
-		<!-- Projects Section Start -->
-		<section class="bg-secondary text-light min-vh-100 p-5" id="projects">
-		<h2 class="header-title mb-3">PROJECTS</h2>
-
-		<div class="d-lg-flex justify-content-center p-md-5 text-center">
-
-			<!-- E-Commerce Card Start -->
-			<div class="card bg-dark col-xl-4 mb-5 mx-xl-3 mb-xl-0" style="width: 18rem;">
-			  <img src="./images/ecommerce.png" height="260px" width="320"class="card-img-top mt-3" alt="...">
-			  <div class="card-body">
-			    <h5 class="card-title">E-Commerce Website</h5>
-			    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quis dolores natus consectetur eos! Itaque, molestiae. Pariatur aspernatur fugit ad, id quam maiores vel eaque eos nemo, impedit neque error!</p>
-			  </div>
-			  <div class="card-body">
-			    <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6" class="card-link">Link to Project</a>
-			  </div>
-			</div>
-			<!-- E-Commerce Card End -->
-
-			<!-- Password Generator Card Start -->
-			<div class="card bg-dark col-xl-4 mb-5 mx-xl-3 mb-xl-0" style="width: 18rem;">
-			  <img src="./images/pwgenerator.png" height="260px" width="320" class="card-img-top mt-3" alt="...">
-			  <div class="card-body">
-			    <h5 class="card-title">Password Generator</h5>
-			    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quis dolores natus consectetur eos! Itaque, molestiae. Pariatur aspernatur fugit ad, id quam maiores vel eaque eos nemo, impedit neque error!</p>
-			  </div>
-			  <div class="card-body">
-			    <a href="https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh" class="card-link">Link to Project</a>
-			  </div>
-			</div>
-			<!-- Password Generator Card End -->
-
-			<!-- Interactive Pricing Component Start -->
-			<div class="card bg-dark col-xl-4 mb-5 mx-xl-3 mb-xl-0" style="width: 18rem;">
-			  <img src="./images/pricing.png" height="260px" width="320" class="card-img-top mt-3" alt="...">
-			  <div class="card-body">
-			    <h5 class="card-title">Interactive Pricing Component</h5>
-			    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quis dolores natus consectetur eos! Itaque, molestiae. Pariatur aspernatur fugit ad, id quam maiores vel eaque eos nemo, impedit neque error!</p>
-			  </div>
-			  <div class="card-body">
-			    <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" class="card-link">Link to Project</a>
-			  </div>
-			</div>
-			<!--Interactive Pricing Component End -->
-
-		</section>
-
-		<!-- Projects Section End -->
-
-		<!-- Contact Form Start -->
-		<section class="form-section">
-			<h2 class="header-title text-dark mt-5">CONTACT ME</h2>
-			<div class="row">
-				<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 p-3 rounded">
-
+		<!-- Form Section Start -->
+		<section id="form-section" class="container-fluid text-center">
+			<h2 class="header-title text-dark mt-5 p-3">CONTACT ME</h2>
+			<h3 class="text-dark">Let's get in touch!</h3>
+			<p class="text-dark text-center">If you'd like to send me a message, I can be reached through various ways!
+If you prefer email, simply fill out the form below. We can also meet, I'm just around Rizal!</p>
+		<div class="row">
+				<form class="col-4 offset-md-1 col-md-4 col-xl-4 p-3 min-width-4 rounded">
 				  <div class="form-group">
 				    <label class="text-light"for="full_name"></label>
 				    <input type="text" class="form-control" id="full_name" placeholder="Full Name">
@@ -166,17 +174,53 @@
 				    <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
 				  </div>
 
-				  <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">Submit</button>
+				  <button type="button" class="btn col-2 col-md-4 col-xl-5" data-toggle="modal" data-target="#exampleModal">Send</button>
 				</form>
+
+			<!-- Map Section Start -->
+	
+			<div class="col-3 offset-md-1 col-md-3 col-xl-4 p-3 min-width-3 justify-content-center">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247316.2549898049!2d121.06577960929776!3d14.408910575113467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c3eb924f5425%3A0xe8d19861cf0cdfc5!2sBinangonan%2C%20Rizal!5e0!3m2!1sen!2sph!4v1673995985257!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<h6 class="text-center p-3">You may also reach me through the following channels:</h6>
+				<div class="offset-3 col-3 offset-md-2 col-md-3 col-xl-4 p-3 justify-content-center d-inline text-center">
+                    <a href="https://www.facebook.com/evooocative"><img width="80" src="images/facebook.png" class="bg-light rounded-circle"/></a>
+                    <a href="https://www.instagram.com/evooocative/?fbclid=IwAR04WdfA-IMErGczjZqsPYCY5gWP6mH6hCFizElEUdYxn0fh8RpC9SaCR1A"><img width="80" src="images/instagram.png" class="bg-light rounded-circle"/></a>
+                     <a href="https://twitter.com/eronnaesmade"><img width="80" src="images/twitter.png" class="bg-light rounded-circle"/></a>
+                </div>
+
 			</div>
+			<!-- Map Section End -->
+
+		</div>
+
+
+			<!-- Modal Start -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Thanks for getting in touch!</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        Message Succesfully Sent!
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			<!-- Modal End -->
+
 		</section>
 		<!-- Contact Form End -->
 
-
-
 		<!-- FOOTER -->
 
-		 <footer>
+		 <footer class="bg-dark text-light p-2">
             <span>&copy; 2023 Copyright</span>
             <span>|</span>
             <span> All Rights Reserved</span>
@@ -186,8 +230,13 @@
 
         <!-- End of FOOTER -->
 
+    </main>
+
 		<!-- Bootstrap Script -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+		<!-- Text Writer Script -->
+		<script src="index.js"></script>
 	</body>
 </html>
