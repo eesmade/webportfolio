@@ -101,7 +101,7 @@ a:hover, a:active {
 				}
 
 		.intro-text3 {
-			font-size: clamp(3.3em, 4vh, 4rem );
+			font-size: clamp(3em, 3vh, 3rem );
 			font-weight: 600;
 		}
 				.typewrite {
@@ -126,8 +126,11 @@ a:hover, a:active {
 }
 
 
+/***About Section Styles***/
+
 p {
-	text-align: justify;
+	text-align: center;
+	padding: 10px;
 }
 
 #about {
@@ -142,8 +145,9 @@ p {
 }
 
 #about-img {
-	height: 22em;
+	height: 23em;
 	width: 18em;
+	padding: 5px;
 }
 
 /***Skills Section Styles***/
@@ -204,4 +208,11 @@ p {
  	border-radius: 20px;
  	padding: 7px;
  	border: none;
+ }
+
+ .form-btn-container {
+ 	text-align: center;
+ 	/*position: fixed;
+ 	left: 5em;*/
+
  }
