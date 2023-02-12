@@ -185,6 +185,23 @@ p {
 	border-radius:8px ;
 }
 
+
+.card-footer {
+	display: inline-flex;
+	justify-content: center;
+	}
+
+
+.card-footer-item {
+	color: #FFFFFF;
+	background-color: #7D7D4F;
+	margin: 10px;
+	padding: 5px 8px;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
 /***Form Section Styles***/
 #form {
 	background-image: url("./images/white.jpg");
