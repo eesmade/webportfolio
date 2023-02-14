@@ -195,10 +195,11 @@ p {
 .card-footer-item {
 	color: #FFFFFF;
 	background-color: #7D7D4F;
-	margin: 10px;
-	padding: 5px 8px;
+	margin: 2px;
+	padding: 5px 5px;
 	border-radius: 5px;
 	text-align: center;
+	font-size: 	13px;
 
 }
 
