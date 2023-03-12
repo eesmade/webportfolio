@@ -207,6 +207,9 @@ p {
 
 
 /*Card*/
+.card-front {
+	background-color: #F1F5E0;
+}
 
 .btn-primary:hover,
 .btn-primary:focus {
